@@ -1,0 +1,33 @@
+# Tests
+
+## Test 1 - App loads and displays main content [sanity]
+Viewport: desktop
+Description: Verifies the app loads correctly on desktop.
+
+Steps:
+1. Navigate to the app
+2. Wait for page to fully load
+
+Expected: Main heading and navigation are visible.
+
+## Test 2 - Navigate to Track Guide
+Viewport: desktop
+Description: Verifies that clicking the Track link navigates to the track guide page.
+
+Steps:
+1. Navigate to the app
+2. Click "Track" in the navigation bar
+3. Wait for route transition
+
+Expected: Track page content "Explore The Anandapuram Track" is visible.
+
+## Test 3 - Open Booking Modal
+Viewport: desktop
+Description: Verifies that clicking Book Now opens the booking modal.
+
+Steps:
+1. Navigate to the app
+2. Click the "Book Now" button in the navigation bar
+3. Wait for modal animation
+
+Expected: Booking modal is visible with title "Book Your Session".
