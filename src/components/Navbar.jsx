@@ -45,7 +45,7 @@ function Navbar({ onOpenBooking }) {
             letterSpacing: '-0.03em',
             textTransform: 'uppercase'
           }}>
-            APEX<span style={{ color: 'hsl(var(--primary))' }}>KARTING</span>
+            ZEXA<span style={{ color: 'hsl(var(--primary))' }}>KARTING</span>
           </span>
         </Link>
 

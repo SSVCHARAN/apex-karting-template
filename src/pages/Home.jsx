@@ -126,7 +126,7 @@ function Home({ onOpenBooking }) {
             Built For <span style={{ color: 'hsl(var(--primary))' }}>Pure Performance</span>
           </h2>
           <p>
-            At APEX Anandapuram, we use top-tier electric karts and professional track engineering to provide an unmatched adrenaline experience.
+            At ZEXA Anandapuram, we use top-tier electric karts and professional track engineering to provide an unmatched adrenaline experience.
           </p>
         </div>
 

@@ -39,7 +39,7 @@ function Contact() {
       <section style={{ textAlign: 'center', marginTop: '40px' }}>
         <div className="badge badge-primary" style={{ marginBottom: '12px' }}>GET IN TOUCH</div>
         <h1 style={{ textTransform: 'uppercase', marginBottom: '16px' }}>
-          Contact <span style={{ color: 'hsl(var(--primary))' }}>APEX Racing</span>
+          Contact <span style={{ color: 'hsl(var(--primary))' }}>ZEXA Racing</span>
         </h1>
         <p style={{ maxWidth: '600px', margin: '0 auto' }}>
           Have a question about group events, private track rental, or bookings? Send us a message or visit our Anandapuram venue.
@@ -161,7 +161,7 @@ function Contact() {
               <g transform="translate(200, 45)">
                 <path d="M 0 0 C -10 -10, -10 -25, 0 -25 C 10 -25, 10 -10, 0 0 Z" fill="hsl(var(--secondary))" />
                 <circle cx="0" cy="-15" r="4" fill="hsl(var(--text-main))" />
-                <text x="0" y="-32" fill="hsl(var(--text-main))" fontSize="9" fontWeight="bold" textAnchor="middle">APEX TRACK</text>
+                <text x="0" y="-32" fill="hsl(var(--text-main))" fontSize="9" fontWeight="bold" textAnchor="middle">ZEXA TRACK</text>
               </g>
             </svg>
           </div>

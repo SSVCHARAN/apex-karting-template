@@ -50,7 +50,7 @@ function Footer() {
                 letterSpacing: '-0.03em',
                 textTransform: 'uppercase'
               }}>
-                APEX<span style={{ color: 'hsl(var(--primary))' }}>KARTING</span>
+                ZEXA<span style={{ color: 'hsl(var(--primary))' }}>KARTING</span>
               </span>
             </div>
             <p style={{ fontSize: '0.9rem', marginBottom: '20px' }}>
@@ -104,7 +104,7 @@ function Footer() {
               </div>
               <div style={{ display: 'flex', gap: '10px', alignItems: 'center' }}>
                 <Mail size={18} style={{ color: 'hsl(var(--primary))', flexShrink: 0 }} />
-                <span>info@apexkarting.com</span>
+                <span>info@zexakarting.com</span>
               </div>
             </div>
           </div>
@@ -118,7 +118,7 @@ function Footer() {
           fontSize: '0.8rem',
           color: 'hsl(var(--text-muted))'
         }}>
-          <p>© {new Date().getFullYear()} APEX Karting Anandapuram. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Zexa Karting. All rights reserved. Owned & Operated by Zexa Agency.</p>
         </div>
       </div>
 

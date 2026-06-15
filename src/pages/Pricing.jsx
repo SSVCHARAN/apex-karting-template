@@ -17,7 +17,7 @@ function Pricing({ onOpenBooking }) {
       accent: 'hsl(var(--border))'
     },
     {
-      name: 'APEX Triple Attack',
+      name: 'ZEXA Triple Attack',
       price: '1,999',
       duration: '30 Mins (3 Races)',
       desc: 'Our most popular deal. Three full races to master the racing line and shave seconds off your lap.',
@@ -40,7 +40,7 @@ function Pricing({ onOpenBooking }) {
         '5x 10-Minute Track Sessions',
         'Custom Seat & Balaclava Included',
         'Interactive Lap Performance Coach',
-        'Apex Club Reward Points',
+        'Zexa Club Reward Points',
         'Priority Track Scheduling',
       ],
       popular: false,

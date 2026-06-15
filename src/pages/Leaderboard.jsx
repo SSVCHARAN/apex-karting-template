@@ -8,33 +8,33 @@ function Leaderboard() {
     name: 'Vikram R.',
     time: '48.242s',
     date: '24 May 2026',
-    kart: 'APEX STORM E-1',
+    kart: 'ZEXA STORM E-1',
     avgSpeed: '89.6 km/h',
   };
 
   const lapTimes = {
     weekly: [
-      { rank: 1, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'APEX STORM E-1' },
-      { rank: 2, name: 'Anjali Sharma', time: '49.882s', speed: '86.7 km/h', kart: 'APEX STORM E-1' },
-      { rank: 3, name: 'Prashanth V.', time: '50.045s', speed: '86.4 km/h', kart: 'APEX STORM E-1' },
-      { rank: 4, name: 'Rahul Dev', time: '50.312s', speed: '85.9 km/h', kart: 'APEX STORM E-1' },
-      { rank: 5, name: 'Karthik S.', time: '51.109s', speed: '84.5 km/h', kart: 'APEX JUNIOR B-1' },
-      { rank: 6, name: 'Megha Rao', time: '51.450s', speed: '84.0 km/h', kart: 'APEX STORM E-1' },
-      { rank: 7, name: 'Naveen B.', time: '52.012s', speed: '83.1 km/h', kart: 'APEX DUO T-2' }
+      { rank: 1, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 2, name: 'Anjali Sharma', time: '49.882s', speed: '86.7 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 3, name: 'Prashanth V.', time: '50.045s', speed: '86.4 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 4, name: 'Rahul Dev', time: '50.312s', speed: '85.9 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 5, name: 'Karthik S.', time: '51.109s', speed: '84.5 km/h', kart: 'ZEXA JUNIOR B-1' },
+      { rank: 6, name: 'Megha Rao', time: '51.450s', speed: '84.0 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 7, name: 'Naveen B.', time: '52.012s', speed: '83.1 km/h', kart: 'ZEXA DUO T-2' }
     ],
     monthly: [
-      { rank: 1, name: 'Vikram R.', time: '48.310s', speed: '89.5 km/h', kart: 'APEX STORM E-1' },
-      { rank: 2, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'APEX STORM E-1' },
-      { rank: 3, name: 'Neha Chawla', time: '49.402s', speed: '87.5 km/h', kart: 'APEX STORM E-1' },
-      { rank: 4, name: 'Anjali Sharma', time: '49.882s', speed: '86.7 km/h', kart: 'APEX STORM E-1' },
-      { rank: 5, name: 'Prashanth V.', time: '50.045s', speed: '86.4 km/h', kart: 'APEX STORM E-1' }
+      { rank: 1, name: 'Vikram R.', time: '48.310s', speed: '89.5 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 2, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 3, name: 'Neha Chawla', time: '49.402s', speed: '87.5 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 4, name: 'Anjali Sharma', time: '49.882s', speed: '86.7 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 5, name: 'Prashanth V.', time: '50.045s', speed: '86.4 km/h', kart: 'ZEXA STORM E-1' }
     ],
     alltime: [
-      { rank: 1, name: 'Vikram R.', time: '48.242s', speed: '89.6 km/h', kart: 'APEX STORM E-1' },
-      { rank: 2, name: 'Arjun Sen', time: '48.455s', speed: '89.2 km/h', kart: 'APEX STORM E-1' },
-      { rank: 3, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'APEX STORM E-1' },
-      { rank: 4, name: 'Neha Chawla', time: '49.402s', speed: '87.5 km/h', kart: 'APEX STORM E-1' },
-      { rank: 5, name: 'Varun Reddy', time: '49.712s', speed: '87.0 km/h', kart: 'APEX STORM E-1' }
+      { rank: 1, name: 'Vikram R.', time: '48.242s', speed: '89.6 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 2, name: 'Arjun Sen', time: '48.455s', speed: '89.2 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 3, name: 'Sanjay Kumar', time: '49.124s', speed: '88.0 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 4, name: 'Neha Chawla', time: '49.402s', speed: '87.5 km/h', kart: 'ZEXA STORM E-1' },
+      { rank: 5, name: 'Varun Reddy', time: '49.712s', speed: '87.0 km/h', kart: 'ZEXA STORM E-1' }
     ]
   };
 
@@ -45,7 +45,7 @@ function Leaderboard() {
       <section style={{ textAlign: 'center', marginTop: '40px' }}>
         <div className="badge badge-primary" style={{ marginBottom: '12px' }}>FASTEST LAPS</div>
         <h1 style={{ textTransform: 'uppercase', marginBottom: '16px' }}>
-          APEX <span style={{ color: 'hsl(var(--primary))' }}>Leaderboard</span>
+          ZEXA <span style={{ color: 'hsl(var(--primary))' }}>Leaderboard</span>
         </h1>
         <p style={{ maxWidth: '600px', margin: '0 auto' }}>
           Analyze telemetry reports, review the racing line, and see who holds the record at the Anandapuram circuit.

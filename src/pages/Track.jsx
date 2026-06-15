@@ -6,7 +6,7 @@ function Track() {
 
   const turns = [
     { id: 1, name: 'Anandapuram Launch', type: 'Straightaway', speed: '90 km/h', desc: 'The longest straight on the circuit. Floor the pedal to hit the maximum speed and set up your overtake.' },
-    { id: 2, name: 'Apex Chicane', type: 'S-Curve', speed: '45 km/h', desc: 'A quick left-right sequence requiring precise weight shifting. Clip the kerbs nicely to preserve exit speed.' },
+    { id: 2, name: 'Zexa Chicane', type: 'S-Curve', speed: '45 km/h', desc: 'A quick left-right sequence requiring precise weight shifting. Clip the kerbs nicely to preserve exit speed.' },
     { id: 3, name: 'Hairpin 180', type: 'Hairpin Turn', speed: '20 km/h', desc: 'The tightest turn on the track. Brake early, hit the apex late, and accelerate hard out.' },
     { id: 4, name: 'Carousel Curve', type: 'Sweeper', speed: '60 km/h', desc: 'A long, sweeping double-apex curve. Hold the line and brace against the lateral G-forces.' },
     { id: 5, name: 'Final Drift', type: '90° Corner', speed: '35 km/h', desc: 'The final turn leading back onto the grid. A perfect exit here is critical for a fast lap.' },
@@ -14,7 +14,7 @@ function Track() {
 
   const fleet = [
     {
-      name: 'APEX STORM E-1',
+      name: 'ZEXA STORM E-1',
       type: 'Adult Pro Kart',
       speed: '90 km/h',
       motor: '20kW AC Brushless',
@@ -24,7 +24,7 @@ function Track() {
       color: 'hsl(var(--primary))'
     },
     {
-      name: 'APEX JUNIOR B-1',
+      name: 'ZEXA JUNIOR B-1',
       type: 'Junior Racing Kart',
       speed: '45 km/h',
       motor: '8kW Brushless',
@@ -34,7 +34,7 @@ function Track() {
       color: 'hsl(var(--secondary))'
     },
     {
-      name: 'APEX DUO T-2',
+      name: 'ZEXA DUO T-2',
       type: 'Double Passenger Kart',
       speed: '65 km/h',
       motor: '15kW Dual-Motor',
@@ -103,7 +103,7 @@ function Track() {
               // Approximate coordinates along the curve
               const coords = [
                 { x: 100, y: 200 }, // Anandapuram Launch (Left straight)
-                { x: 340, y: 120 }, // Apex Chicane (Top center)
+                { x: 340, y: 120 }, // Zexa Chicane (Top center)
                 { x: 520, y: 160 }, // Hairpin 180 (Right loop)
                 { x: 300, y: 285 }, // Carousel Curve (Bottom right curve)
                 { x: 140, y: 290 }, // Final Drift (Bottom left corner)
